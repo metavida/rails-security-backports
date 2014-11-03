@@ -1,4 +1,4 @@
-# ruby-126-security-backports
+# ruby-security-backports
 
 A collection of security-related Ruby & Rails patches backported from fixes in modern Ruby & Rails.
 
