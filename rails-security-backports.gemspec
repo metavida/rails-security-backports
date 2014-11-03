@@ -3,11 +3,11 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-#require 'rails-security-backports/version'
+require 'rails-security-backports/version'
 
 Gem::Specification.new do |s|
   s.name = "rails-security-backports"
-  s.version = '0.0.1' #RailsSecurityBackports::Version.to_s
+  s.version = RailsSecurityBackports::Version.to_s
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcos Wright Kuhns"]
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n")
   s.test_files = s.files.grep(%r{^(test|spec|features,integration_test)/})
 
-  s.rdoc_options = ["--main", "README.rdoc", "--title", "rails-security-backports-#{'0.0.1' || RailsSecurityBackports::Version}", "--inline-source", "--exclude", "tasks", "CHANGELOG.md"]
+  s.rdoc_options = ["--main", "README.rdoc", "--title", "rails-security-backports-#{RailsSecurityBackports::Version}", "--inline-source", "--exclude", "tasks", "CHANGELOG.md"]
   s.extra_rdoc_files = s.files.grep(%r{\.rdoc$}) + %w{LICENSE}
 
   s.require_paths = ["lib"]
