@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.0.2 - 2014-11-03
+### Changed
+- require rake 0.9.2 specifically, for full Ruby 1.8.6 compatibility
+
 ## 0.0.1 - 2014-11-03
 ### Added
 - Initial base files (README, CHANGELOG, .gemspec, etc)
