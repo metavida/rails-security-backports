@@ -23,7 +23,7 @@ GEM
       activerecord (= 1.15.6)
       activesupport (= 1.4.4)
       rake (>= 0.7.2)
-    rake (10.3.2)
+    rake (0.9.6)
 
 PLATFORMS
   ruby
@@ -31,3 +31,4 @@ PLATFORMS
 DEPENDENCIES
   rails (~> 1.2)
   rails-security-backports!
+  rake (~> 0.9)
