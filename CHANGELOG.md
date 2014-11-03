@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## 0.0.1 - Unreleased
+## 0.0.1 - 2014-11-03
 ### Added
 - Initial base files (README, CHANGELOG, .gemspec, etc)
 - Rails: CVE-2013-0276
