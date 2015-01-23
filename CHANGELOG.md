@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.0.3 - 2015-01-22
+### Added
+- Ruby: CVE-2014-8090
+
 ## 0.0.2 - 2014-11-03
 ### Changed
 - require rake 0.9.2 specifically, for full Ruby 1.8.6 compatibility
